@@ -1,0 +1,13 @@
+Mathematical Standard Functions
+
+double sin (double);		//Sine
+double cos (double);		//Cosine
+double tan (double);		//Tangent
+double atan (double);		//Arc Tangent
+double cosh (double);		//Hyperbolic Cosine
+double sprt (double);		//Square Root
+double pow (double, double);	//Power
+double exp (double);		// Expontial Function
+double log (double);		//Natural Logarithm
+double log10 (double);		//Base-Ten Logarithm
+

@@ -1,0 +1,73 @@
+These are header/directives files in CPP:
+- algorithm
+- bitset
+- complex
+- dequeue
+-exception
+-fstream
+-functional
+-iomanip
+-ios
+-iosfwd
+-iostream #this is the in\output stream. the compiler cant handle cout/cin if you dont
+-iterator
+-limits
+-list
+-locale
+-map
+-mempory
+-new
+-numeric
+-ostream
+-queue
+-set
+-sstream
+-stack
+-stdexcept
+-streambuf
+-string #this is for better string concat and vari assgin
+-typeinfo
+-utility
+-valarray
+-vector
+
+#these are the header files for CPP. I dont know what all of em yet.
+using namespace is so the compiler can understand std namespaces(ima assume using global scopes in the int main())
+
+
+I think you can use C directives in Cpp. Hol up:#refer ro Experment.exe
+    ok so that shit works. Crazy, I mean we dont call it Grandaddy C. for no reason
+
+obj.length()-> object.method()
+
+global define functions are funtions that come with a directive
+getline() is a Global function, that gets an input and put in a vari(its a string):
+     getline(cin, vari)
+	esc charaters are not allowed
+
+#############################################################
+#Input Output with Streams
+#############################################################
+
+
+it starts at the iostream:
+    then it goes to istream
+    or it goes to the ostream
+	then it ends at the ios
+
+cin - Obj of class istream to control standard input
+cout - Obj of class ostream to control standard output
+cerr - Obj of class ostream to control unbuffered error output
+clog - Obj of class ostream to control buffered error output
+
+There are new in/output classes.
+whole new library for it:
+    its in iostream
+ios is the base class:
+     it share classes and methods with all stream classes
+istream is used more for reading the stream 
+ostream is used more for writing stream
+
+cin,cout is for writeing and reading input on the window
+cerr, clog is to display error on the window or Whateva file you output on.
+
